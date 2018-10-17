@@ -1,0 +1,17 @@
+# dependencies
+node_modules
+
+# logs
+*.log
+
+# Nuxt build
+.nuxt
+.cache
+
+# Editor & Misc
+.vscode
+.directory
+.editorconfig.org
+
+# Nuxt generate
+dist
