@@ -30,7 +30,10 @@
 		"@nuxtjs/pwa": "^2.0.8",
 		"@nuxtjs/sitemap": "^0.1.1",
 		"axios": "^0.17.1",
+		"bolide-nuxt-template": "^0.2.1",
 		"cookies": "^0.7.1",
+		"dog-names": "^1.0.2",
+		"element-ui": "^2.4.8",
 		"js-cookie": "^2.2.0",
 		"lodash": "^4.17.5",
 		"monomer-css": "^0.2.0",
@@ -44,8 +47,7 @@
 		"vue-loader": "13.7.2",
 		"vue-server-renderer": "^2.5.9",
 		"vue-svgicon": "^2.1.0",
-		"vue-template-compiler": "^2.5.9",
-		"dog-names": "^1.0.2"
+		"vue-template-compiler": "^2.5.9"
 	},
 	"devDependencies": {
 		"babel-eslint": "^8.2.5",

@@ -5,7 +5,7 @@
 </template>
 
 <style lang="css">
-@import 'muse-ui/dist/muse-ui.css';
+/*@import 'muse-ui/dist/muse-ui.css';*/
 </style>
 
 <style lang="scss">
@@ -26,9 +26,14 @@ import VeeValidate, { Validator } from 'vee-validate'
 import * as svgicon from 'vue-svgicon'
 import 'vue-svgicon/dist/polyfill'
 
-import MuseUI from 'muse-ui'
-Vue.use(MuseUI)
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+
+/* import MuseUI from 'muse-ui'
+Vue.use(MuseUI) */
 Vue.use(Vuex)
+
+Vue.use(ElementUI)
 
 const vvConfig = { enableAutoClasses: true, locale: 'en', events: 'blur', errorBagName: 'vErrors' }
 Vue.use(VeeValidate, vvConfig)
